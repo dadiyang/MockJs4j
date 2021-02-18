@@ -13,6 +13,14 @@
     <groupId>com.github.dadiyang</groupId>
     <artifactId>MockJs4j</artifactId>
     <version>1.0.0</version>
+    <!--  如果只在单测时使用，则 scope 设为 test  -->
+    <scope>test</scope>
+</dependency>
+<!--如果需要使用 MockJs 模板生成并指定类型对象，则需要依赖 fastjson-->
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>fastjson</artifactId>
+    <version>${fastjson.version}</version>
 </dependency>
 ```
 
