@@ -6,6 +6,16 @@
 
 # 使用
 
+### maven 依赖
+
+```xml
+<dependency>
+    <groupId>com.github.dadiyang</groupId>
+    <artifactId>MockJs4j</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ## 使用模板生成 map 对象
 
 ```java
